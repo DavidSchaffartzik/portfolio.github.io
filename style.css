@@ -755,6 +755,19 @@ h1 span,
   color: var(--purple);
 }
 
+.prompts-link {
+  gap: 7px;
+  border-color: rgb(214 243 106 / 35%);
+  background: rgb(214 243 106 / 8%);
+  color: var(--lime);
+}
+
+.prompts-link:hover {
+  border-color: var(--lime);
+  background: rgb(214 243 106 / 15%);
+  color: var(--lime);
+}
+
 .creation-credit {
   padding: 0 0 32px;
   text-align: center;

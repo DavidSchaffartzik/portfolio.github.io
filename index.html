@@ -197,7 +197,13 @@
         <span>David Schaffartzik</span>
       </a>
       <p>Vytvořeno s chutí učit se. © 2026</p>
-      <nav class="validation-links" aria-label="Validace webu">
+      <nav class="validation-links" aria-label="Dokumenty a validace webu">
+        <a
+          class="validation-button prompts-link"
+          href="citace-a-prompty.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        ><span aria-hidden="true">✦</span> Citace a prompty <span aria-hidden="true">↗</span></a>
         <a
           class="validation-button"
           id="validate-html"
@@ -216,7 +222,7 @@
       <a class="back-top" href="#domu">Zpět nahoru ↑</a>
     </footer>
     <script>
-      const pageUrl = "https://davidschaffartzik.github.io/portfolio.github.io/";
+      const pageUrl = "https://davidschaffartzik.github.io/DavidSchaffatzik.github.io/";
       const htmlValidator = new URL("https://validator.w3.org/nu/");
       htmlValidator.searchParams.set("doc", pageUrl);
       document.querySelector("#validate-html").href = htmlValidator.href;
